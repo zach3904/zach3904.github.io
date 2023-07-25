@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Portfolio of Zach Richards</title>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+    <link href="css/jquery.fancybox.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/plugins.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <!--[if IE 7]><link href="css/ie.css" rel="stylesheet" /><![endif]-->
+    <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if lte IE 7]>
+        <script type="text/javascript">
+            window.onresize = null; // patch to prevent infinite loop in IE6 and IE7
+        </script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="top-highlight"></div>
+    
+    <div class="container">
+        <div class="header">
+            <div class="divider"></div>
+            
+            <div class="logo">
+                <img src="/images/logo.png" alt="Zach Richards" class="logo-vertical">
+                <img src="/images/logo-horizontal.png" alt="Zach Richards" class="logo-horizontal">
+            </div>
+
+            <span id="toggleFullscreen" class="toggle-fullscreen icon-expand"></span>
+
+            <nav>
+                <ul>
+                    <li class="infoNav"><a href="#info" class="scroll active">Info</a></li>
+                    <li class="webNav"><a href="#web" class="scroll">Web</a></li>
+                    <li class="photoNav"><a href="#photo" class="scroll">Photo</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="content">
+            
+            <div class="info">
+                <a name="info">&nbsp;</a>
+                <h3>About Me</h3>
+                <p>I love Front End Web Development. I have a passion for clean, polished design and a similar motivation for elegant code. I have a growing skillset with varying experience in HTML, CSS, and Javascript. I've been in web development and design for about 7 years and keep things interesting through continual learning. This portfolio was built as a showcase of my current potential in those skills. You can learn more about me by viewing my <a href="http://www.linkedin.com/pub/zachary-richards/20/47/94a" target="_blank">LinkedIn profile</a>.</p>
+            </div>
+
+            <div class="web">
+                <a name="web">&nbsp;</a>
+                <h3>Web</h3>
+                <ul class="thumbnails"></ul>
+            </div>
+            
+            <div class="photo">
+                <a name="photo">&nbsp;</a>
+                <h3>Photography</h3>
+                <ul class="thumbnails"></ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="web-detail-overlay" class="web-detail-overlay hidden">
+        <button type="button" class="close-overlay">&times;</button>
+        <div class="web-detail-content"></div>
+    </div>
+
+    <script type="text/javascript" src="js/content.js"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+    <!--
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-33844796-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+    -->
+
+</body>
+</html>

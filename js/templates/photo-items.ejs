@@ -1,0 +1,10 @@
+<% $.each(photos, function (i, photo) { %>
+	
+	<li>
+	    <a href="images/photos/<%= photo.photoID %>.jpg" data-fancybox-group="photos">
+	    	<img src="images/photos/thumbs/<%= photo.photoID %>.jpg" title="<%= photo.title %>" alt="<%= photo.title %>" />
+	    	<div class="thumb-dim"></div>
+	    </a>
+	</li>
+
+<% }); %>

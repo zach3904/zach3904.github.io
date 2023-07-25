@@ -1,0 +1,15 @@
+/******************/
+/**** IE FIXES ****/
+/******************/
+
+
+/* fixes 1px shift on input/textarea ending background images */
+
+#contact .inputEnd,
+#contact .textareaEnd { margin-top:1px; }
+
+
+/* adds a little top padding to text entered into contact fields */
+
+#contact input[type=text],
+#contact textarea { padding-top:5px; }
