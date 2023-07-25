@@ -64,20 +64,6 @@ var content = {
             ]
 		},
 		{
-			"title": "ActivEngage2",
-			"url": false,
-			"imgName": "engage2",
-			"imgCount": 5,
-			"description": "ActivEngage2 is a student testing application that tied in with Promethean's lesson software called Inspire. I started at Promethean some time after ActivEngage2 had been around, so I was only tasked with updates to the app. However, working on ActivEngage2 did give me a real world example and a starting point into AngularJS.",
-			"skills": [
-                "HTML5",
-                "CSS3",
-                "Javascript",
-                "AngularJS",
-                "Media Queries"
-            ]
-		},
-		{
 			"title": "Pagliacci Pizza - Mobile Site",
 			"url": "http://www.pagliacci.com/",
 			"imgName": "pagliacci",
@@ -222,19 +208,6 @@ var content = {
 			"skills": [
 				"HTML",
                 "CSS"
-            ]
-		},
-		{
-			"title": "CHPW",
-			"url": "http://www.chpw.org/",
-			"imgName": "chpw",
-			"imgCount": 2,
-			"description": "",
-			"skills": [
-				"HTML",
-				"CSS",
-				"Design",
-                "jQuery"
             ]
 		}
 	],
