@@ -1,6 +1,20 @@
 var content = {
 	"webProjects": [
 		{
+			"title": "Octo CX Search",
+			"url": false,
+			"imgName": "cx-search",
+			"imgCount": 12,
+			"description": "",
+			"skills": [
+				"React",
+        "Typescript",
+        "Material UI",
+        "JSS",
+				"Storybook"
+      ]
+		},
+		{
 			"title": "Porch UI Library",
 			"url": false,
 			"imgName": "porch-ui-library",
